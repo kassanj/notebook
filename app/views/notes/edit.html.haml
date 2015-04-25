@@ -1,5 +1,8 @@
-%h1 Edit your note
+.wrapper_with_padding
 
-render 'form'
+	%h1 Edit Note
 
-link_to "Cancel", note_path
+	= render 'form'
+	%br
+
+	= link_to "Cancel", note_path
