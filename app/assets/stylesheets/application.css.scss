@@ -1,0 +1,27 @@
+/*
+ *= require_self
+ */
+
+
+@import 'global.css.scss';
+@import 'normalize.css';
+@import 'notes.css.scss';
+@import 'welcome.css.scss';
+
+#logo {
+	margin-top: -1%;
+}
+
+header .header_inner nav a  {
+	margin-top: 2%;
+}
+
+
+nav {
+	margin-top: 1.5%;
+}
+
+#note_show p {
+  font-size: 1.375rem;
+  line-height: 1.75;
+}
